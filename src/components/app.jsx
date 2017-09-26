@@ -1,11 +1,12 @@
 import React from 'react';
+import CityList from '../containers/city_list';
 
-const App = () => {
-  return (
+const App = (props) => {
+  return
     <div className="app">
       <p>React + Redux starter</p>
-    </div>
-  );
+      <CityList cities={cities} />
+    </div>;
 };
 
 export default App;
